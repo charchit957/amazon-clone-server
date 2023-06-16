@@ -27,7 +27,6 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
-console.log(process.env.MONGO_URL);
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`connected at ${PORT}`);
 });
